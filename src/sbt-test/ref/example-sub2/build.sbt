@@ -1,7 +1,7 @@
 ThisBuild / scalaVersion := "2.13.6"
 ThisBuild / organization := "com.example"
 
-val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7"
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.19"
 
 lazy val hello = (project in file("."))
   .settings(
