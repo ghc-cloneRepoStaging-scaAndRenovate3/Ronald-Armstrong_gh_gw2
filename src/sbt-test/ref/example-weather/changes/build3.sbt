@@ -2,7 +2,7 @@ ThisBuild / version      := "0.1.0"
 ThisBuild / scalaVersion := "2.13.6"
 ThisBuild / organization := "com.example"
 
-val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7"
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.19"
 val gigahorse = "com.eed3si9n" %% "gigahorse-okhttp" % "0.5.0"
 val playJson  = "com.typesafe.play" %% "play-json" % "2.9.2"
 
