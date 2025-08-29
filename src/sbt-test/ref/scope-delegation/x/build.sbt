@@ -19,7 +19,7 @@ lazy val projC = (project in file("c"))
     name := {
       "foo-" + (packageBin / scalaVersion).value
     },
-    scalaVersion := "2.11.11"
+    scalaVersion := "2.11.12"
   )
 // #fig_c
 
