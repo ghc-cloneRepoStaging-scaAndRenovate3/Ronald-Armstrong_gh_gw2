@@ -6,7 +6,7 @@ val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7"
 lazy val hello = (project in file("."))
   .settings(
     name := "Hello",
-    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.5.0",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.9.3",
     libraryDependencies += scalaTest % Test,
   )
 

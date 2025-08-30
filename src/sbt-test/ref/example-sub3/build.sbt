@@ -7,7 +7,7 @@ lazy val hello = (project in file("."))
   .aggregate(helloCore)
   .settings(
     name := "Hello",
-    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.5.0",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.9.3",
     libraryDependencies += scalaTest % Test,
   )
 
