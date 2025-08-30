@@ -14,6 +14,6 @@ lazy val hello = (project in file("."))
 lazy val helloCore = (project in file("core"))
   .settings(
     name := "Hello Core",
-    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.5.0",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.9.3",
     libraryDependencies += scalaTest % Test,
   )
